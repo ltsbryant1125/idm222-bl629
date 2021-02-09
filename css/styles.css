@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+ }
+
+ @font-face {
+    font-family: 'PlayfairDisplay_Regular' ;
+    src: url('../fonts/PlayfairDisplay-Regular.otf')
+ }
+
+@font-face {
+     font-family: 'PlayfairDisplay_Bold';
+     src: url('../fonts/PlayfairDisplay-Bold.otf');
+     font-weight: bold;
+ }
+
+body {
+    font-family: 'PlayfairDisplay_Regular', serif;
+    font-size: 1rem;
+    background-color: #FFFAF0;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #1a1a1a;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+}
+
+.navigation a:hover {
+    background-color: lightblue;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: .875rem 1rem;
+    text-decoration: none;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.social_links {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+div.intro_text {
+    font-weight: bold;
+    padding: 7rem 3.5rem;
+    font-size: 200%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+div.frontpage {
+    margin: 1rem
+}
+
+h1.Work {
+    font-weight: bold;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+hr.divider {
+    border-top: 2px solid;
+}
+
+p {
+    font-family: 'PlayfairDisplay_Regular', serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.row {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.about_me {
+    margin: .5rem;
+    padding: .5rem 1rem 1rem;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    margin: 3rem 2.3rem 3rem;
+    line-height: 1.6rem;
+    max-width: 610px;
+}
+.resume ul {
+    list-style-type: none;
+}
