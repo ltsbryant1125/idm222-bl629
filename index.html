@@ -23,14 +23,30 @@
     <h1 class="Work">Work</h1> 
         <hr class="divider">
             <div class="row">
-                <div><img class="photo" src="images/PHTO-110-Assignment_2_2.jpg" alt="Photography_Assignment_2"></div>
-                <div><img class="photo" src="images/Wire_Project.jpg" alt="Butterfly Sculpture"></div>
-                <div><img class="photo" src="images/P1_SoundAnalysis_1.jpg" alt="SoundAnalysis"></div>
+                <div>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/PHTO-110-Assignment_1_1_450w.jpg">
+                        <source media="(min-width: 768px)" srcset="images/PHTO-110-Assignment_1_1_250w.jpg">
+                        <img src="images/PHTO-110-Assignment_1_1_275w.jpg" alt="Photography_Assignment_1">
+                    </picture>
+                    <!--<img class="photo" src="images/PHTO-110-Assignment_2_2.jpg" alt="Photography_Assignment_2">-->
+                </div>
+                <div>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/Wire_Project.jpg">
+                        <img class="photo" src="images/Wire_Project_200w.jpg" alt="Butterfly Sculpture">
+                    </picture>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/P1_SoundAnalysis_1_450w.jpg">
+                        <img class="photo" src="images/P1_SoundAnalysis_1_275w.jpg" alt="SoundAnalysis">
+                    </picture>
+                </div>
             </div>
-        <hr class="divider">
-    </div>
+            <hr class="divider">
+        </div>
     </body>
-    
 <footer id="footer">
     <div class="contact">
         <ul class="social_links">
@@ -38,6 +54,6 @@
             <li><a href="https://www.instagram.com/lu.bry/"><img src="icons/InstagramLogo.png" alt=""></a></li>
             <li><a href="https://www.linkedin.com/in/bryant-lu-22a4711a2/"><img src="icons/LinkedinLogo.png" alt=""></a></li>
         </ul>
-        </div>
+    </div>
 </footer>
 </html>
