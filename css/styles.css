@@ -111,7 +111,6 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
 }
 
 @media screen and (min-width: 1280px) {
@@ -188,13 +187,14 @@ p {
 
 .about_text {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .portfolio {
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
+    text-align: center;
 }
 
 .photo {
@@ -211,4 +211,8 @@ p {
 
 .resume ul {
     list-style-type: none;
+}
+
+.description {
+    text-align: center;
 }
