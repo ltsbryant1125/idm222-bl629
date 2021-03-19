@@ -83,7 +83,7 @@ body {
     margin: auto;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 375px) {
     .portfolio {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
